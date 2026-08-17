@@ -1,9 +1,10 @@
-mark =[45,45,56,76,98,]
-mark.append(97)
-print(mark)
-mark.sort()
-print(mark)
-mark.sort(reverse=True)
-print(mark)
-mark.insert(2,64)
-print(mark)
+movies=[]
+movie1=input("enter the movie no.1")
+movie2=input("enter the movie no.2")
+movie3=input("enter the movie no.3")
+
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+print(movies)
+
