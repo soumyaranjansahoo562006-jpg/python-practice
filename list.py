@@ -1,3 +1,9 @@
 mark =[45,45,56,76,98,]
+mark.append(97)
 print(mark)
-print(mark[3])
+mark.sort()
+print(mark)
+mark.sort(reverse=True)
+print(mark)
+mark.insert(2,64)
+print(mark)
